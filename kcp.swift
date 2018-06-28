@@ -8,7 +8,7 @@
 
 import Cocoa
 
-extension Array {
+fileprivate extension Array {
   mutating func removeAtIndexes(indexes: NSIndexSet) {
     var i = indexes.lastIndex
     while i != NSNotFound {
